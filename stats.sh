@@ -22,7 +22,7 @@ echo "CPU: $cpu_usage% used"
 # -- Memory
 
 read _ total used free _ < <(free -m | awk '/^Mem:/ {print $2, $3, $4, $7}')
-mem_used_percent=$(awk  "BEGIN {printf \"%.1f\", ($used / $total) * 100}")
+mem_used_percent=$(awk "BEGIN {printf \"%.1f\", ($used / $total) * 100}")
 echo "RAM: ${used}MB / ${total}MB (${mem_used_percent}% used)"
 
 # -- Disk usage
