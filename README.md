@@ -1,5 +1,4 @@
 # system-stats
-https://github.com/klkkristof/system-stats
 
 A lightweight Bash script to check CPU, RAM, disk, and top processes on any Linux server.
 
@@ -55,3 +54,5 @@ By Memory:
 ...
 
 ######################################
+
+https://roadmap.sh/projects/server-stats
