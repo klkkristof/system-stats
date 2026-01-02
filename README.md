@@ -17,11 +17,11 @@ A lightweight Bash script to check CPU, RAM, disk, and top processes on any Linu
 ## Usage
 
 
-curl -L -O https://raw.githubusercontent.com/klkkristof/system-stats/main/stats.sh
+curl -L -O https://raw.githubusercontent.com/klkkristof/system-stats/main/server-stats.sh
 
-chmod +x stats.sh
+chmod +x server-stats.sh
 
-./stats.sh
+./server-stats.sh
 
 
 ## Expected output
