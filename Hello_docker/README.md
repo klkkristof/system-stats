@@ -4,6 +4,7 @@
 ## Clone the repository:
 
   git clone https://github.com/klkkristof/System_Tasks.git
+  
   cd hello-docker
 
 ## Build the Docker image:
