@@ -15,44 +15,21 @@ A lightweight Bash script to check CPU, RAM, disk, and top processes on any Linu
 
 ## Usage
 
-
+```bash
 curl -L -O https://raw.githubusercontent.com/klkkristof/system-stats/main/server-stats.sh
+```
 
+```bash
 chmod +x server-stats.sh
+```
 
+```bash
 ./server-stats.sh
-
+```
 
 ## Expected output
 
-
-##############--STATS--###############
-
-CPU: 12.3% used
-
-RAM: 8273MB / 15924MB (52.0% used)
-
-Disk: 23G/50G (46% used) on /
+<img width="373" height="423" alt="Screenshot_2026-01-07_19-26-31" src="https://github.com/user-attachments/assets/150ffea4-f232-4065-b315-b991eb727ffc" />
 
 
-##############--TOP PROCESSES--###############
 
-By CPU:
-
-  PID USER     %CPU %MEM COMMAND
-  
- 1234 user    45.2  2.3 node
- 
-...
-
-By Memory:
-
-  PID USER     %MEM %CPU COMMAND
-  
- 5678 user     8.4 12.1 chrome
- 
-...
-
-######################################
-
-https://roadmap.sh/projects/server-stats
